@@ -3,7 +3,7 @@
 /*index*/
 
 @media (max-width: 1020px) {
-    #main {width: 100%;}
+    #index {width: 100%;}
     #main >.box {position: relative; left: 150px; top: 300px;}
     #main > .box > .btn-toggle {position: fixed; right: 100px;}
     #gnb {position: relative; top: -500px; width: 100%;}
@@ -11,7 +11,6 @@
 }
 
 @media (max-width: 480px) {
-    #main {width: 100%;}
     #main > .box {border: none; margin-top: 100px;}
     #main > .box > .btn-toggle {position: fixed; right: 100px; top: 60px;}
     #gnb { position: relative; right: 10px; top: -600px; background: #000; width: 300px; height: 1000px;}
